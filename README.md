@@ -47,20 +47,25 @@ To run in the Postman with the following routes :-
 
 URL: http://localhost:8080/
 
-POST -> /doctors/register (Register the new doctor using name,email and password).
+1.POST -> /doctors/register (Register the new doctor using name,email and password).
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/doctorRegister.png)
 
-POST -> /doctors/login (Doctor can Login using email and password).
+
+2.POST -> /doctors/login (Doctor can Login using email and password).
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/doctorLogin.png)
 
-POST -> /patients/register (Doctor can Register the patient using name and Phone Number).
+
+3.POST -> /patients/register (Doctor can Register the patient using name and Phone Number).
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/patientRegister.png)
 
-POST -> /patients/:id/create_report (Doctor can create report of the Patients with status either :'Negative','Travelled-Quarantine','Symptoms-Quarantine','Positive-Admit').
+
+4.POST -> /patients/:id/create_report (Doctor can create report of the Patients with status either :'Negative','Travelled-Quarantine','Symptoms-Quarantine','Positive-Admit').
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/createReport.png)
 
-GET -> /patients/:id/all_reports (Retrive all reports of a patient by ID).
+
+5.GET -> /patients/:id/all_reports (Retrive all reports of a patient by ID).
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/allReports.png)
 
-GET -> /reports/:status (Retrieve all reports from DB filter on the basis of Status sent in params).
+
+6.GET -> /reports/:status (Retrieve all reports from DB filter on the basis of Status sent in params).
  ![Image](https://github.com/pratap-prasoon/hospital_Api/blob/master/assets/images/status.png)
